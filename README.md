@@ -1,13 +1,6 @@
 # Spotify_Data_Analysis_2023_SQL_Project
 
-<p align="center">  
-	<br>
-	<a href="https://open.spotify.com/">
-        <img src="https://i.imgur.com/6nTrN50.png" alt="Spotify Logo"> 
-    </a>
-    <br>
-    <br>
-</p>
+https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/2024-spotify-brand-assets-media-kit.jpg
 
 ## Table Of Contents
   - [Introduction](#introduction)
