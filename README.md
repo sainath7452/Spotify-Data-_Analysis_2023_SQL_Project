@@ -15,7 +15,7 @@
 
 ## Introduction 
 
-Welcome to the `"Spotify Music Analysis - 2023"` project! This project explores a comprehensive dataset of Spotify's most popular tracks of 2023. The dataset includes details about each track's attributes, streaming metrics, and cross-platform visibility, offering a rich resource for analyzing music trends.
+Welcome to the `"Spotify_Data_Analysis_2023_SQL_Project"`!This project explores a comprehensive dataset of Spotify's most popular tracks of 2023. The dataset includes details about each track's attributes, streaming metrics, and cross-platform visibility, offering a rich resource for analyzing music trends.
 
 The purpose of this analysis is to uncover insights into popular music characteristics, artist influence, and platform-specific trends while exploring various SQL-based queries to derive actionable insights.
 
