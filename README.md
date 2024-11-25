@@ -1,6 +1,6 @@
 # Spotify_Data_Analysis_2023_SQL_Project
 
-<img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/2024-spotify-brand-assets-media-kit.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 2920px; height: 401px; margin: 0px; width: 353px;" alt="Logo and Brand Assets — Spotify" jsname="kn3ccd" aria-hidden="false">
+<img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/2024-spotify-brand-assets-media-kit.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 4920px; height: 301px; margin: 0px; width: 353px;" alt="Logo and Brand Assets — Spotify" jsname="kn3ccd" aria-hidden="false">
 
 ## Table Of Contents
   - [Introduction](#introduction)
