@@ -1,1 +1,1 @@
-# Spotify-Data-_Analysis_2023_SQL_Project
+# Spotify_Data_Analysis_2023_SQL_Project
