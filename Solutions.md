@@ -6,7 +6,7 @@ This document provides SQL solutions for analyzing Spotify data along with their
 
 ## **A. General Song Information**
 
-### 1. What are the top 5 most streamed songs in 2023?
+### 1. **What are the top 5 most streamed songs in 2023?**
 
 ```sql
 SELECT track_name, streams
@@ -15,7 +15,7 @@ WHERE released_year = 2023
 ORDER BY streams DESC
 LIMIT 5;
 
-### 2. How many unique artists are represented in the dataset?
+### 2. **How many unique artists are represented in the dataset?**
 
 ```sql
 SELECT COUNT(DISTINCT `artist(s)_name`) AS unique_artists
