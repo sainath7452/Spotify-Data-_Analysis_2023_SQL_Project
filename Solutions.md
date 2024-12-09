@@ -14,9 +14,40 @@ FROM spotify
 WHERE released_year = 2023
 ORDER BY streams DESC
 LIMIT 5;
-track_name	streams
-Ella Baila Sola	725980112
-Shakira: Bzrp Music Sessions, Vol. 53	721975598
-TQG	618990393
-La Bebe - Remix	553634067
-Die For You - Remix	518745108
+
+### 2. How many unique artists are represented in the dataset?
+
+```sql
+SELECT COUNT(DISTINCT `artist(s)_name`) AS unique_artists
+FROM spotify_table;
+
+### 3. How are songs distributed across different release years?
+
+```sql
+SELECT released_year, COUNT(*) AS song_count
+FROM spotify_table
+GROUP BY released_year
+ORDER BY released_year;
+
+### 4. Who are the top 10 artists based on popularity, and what are the average danceability and energy levels of their tracks?
+
+```sql
+SELECT `artist(s)_name`, 
+       SUM(CAST(streams AS UNSIGNED)) AS total_streams, 
+       AVG(danceability_%) AS avg_danceability, 
+       AVG(energy_%) AS avg_energy
+FROM spotify_table
+GROUP BY `artist(s)_name`
+ORDER BY total_streams DESC
+LIMIT 10;
+
+### 5. Which artists released the longest and shortest songs?
+
+```sql
+-- Longest song
+SELECT `artist(s)_name`, track_name, MAX(duration) AS longest_duration
+FROM spotify_table;
+
+-- Shortest song
+SELECT `artist(s)_name`, track_name, MIN(duration) AS shortest_duration
+FROM spotify_table;
